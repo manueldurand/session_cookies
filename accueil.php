@@ -45,7 +45,7 @@ foreach ($auteurs as $id => $nom):?>
     <?php if(isset($ordre_auteurs))
     {
     foreach($ordre_auteurs as $id => $time): ?>
-    <li><?= $auteurs[$id]." ".$time ?></li>
+    <li><?= $auteurs[$id] ?></li>
     <?php endforeach;
     } 
     ?>
